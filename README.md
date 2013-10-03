@@ -1,11 +1,10 @@
 Output of the tree command, with line-by-line annotations as to what the files do.
 
-.<br/>
+
 ```
 |-- .env.dummy      # Template for .env; use to keep private API keys out of git repo<br/>
 |-- .pgpass         # Username/password file for local Postgres install<br/>
 |-- .gitignore      # Define files (like .env) that won't be committed to git<br/>
-|<br/>
 |-- Procfile        # Specify what script is run on Heroku<br/>
 |-- README.md       # Markdown documentation; formatted for github<br/>
 |-- index.html      # Main page, with CSS/JS/img assets imported via link<br/>
