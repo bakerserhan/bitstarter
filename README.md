@@ -1,7 +1,7 @@
-
 Output of the tree command, with line-by-line annotations as to what the files do.
 
 .<br/>
+```
 |-- .env.dummy      # Template for .env; use to keep private API keys out of git repo<br/>
 |-- .pgpass         # Username/password file for local Postgres install<br/>
 |-- .gitignore      # Define files (like .env) that won't be committed to git<br/>
@@ -18,3 +18,4 @@ Output of the tree command, with line-by-line annotations as to what the files d
 |-- views          <br/>
 |-- orders.ejs  # template for displaying Order instances as HTML<br/>
 |-- web.js          # Main express app; defines /, /order, and /refresh_order routes<br/>
+```
